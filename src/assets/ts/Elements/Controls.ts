@@ -26,7 +26,7 @@ export class Controls{
             el: '#controls',
             data: {
                 microphoneOn: Cookie.getCookie(cla.microphoneCookie) == 'false' ? false : true,
-                cameraOn: Cookie.getCookie(cla.cameraCookie) == 'false' ? false : true,
+                cameraOn: false,
                 hangouted: false,
                 screenOn: false,
                 optionOn: false,
