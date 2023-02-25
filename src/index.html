@@ -64,9 +64,9 @@
                 </div><div id="sidebar">
                     <div class="tabs">
                         <div class="tabs-header row">
-                            <div tab="chat" class="col-xs-3" data-lang="chat">Chat</div>
-                            <div tab="partner" class="col-xs-4" data-lang="participant">Participant</div>
-                            <div tab="settings" class="col-xs-5" data-lang="settings">Settings</div>
+                            <div tab="chat" class="col-xs-3" data-lang="chat">Чат</div>
+                            <div tab="partner" class="col-xs-4" data-lang="participant">Участники</div>
+                            <div tab="settings" class="col-xs-5" data-lang="settings">Настройки</div>
                         </div>
                         <div class="tabs-content">
                             <div id="tab-chat">
@@ -148,29 +148,9 @@
                                         <input type="checkbox" v-model="soundEffectsOn" @change="toogleSoundEffects">
                                     </div>
                                 </div>
-                                <div id="linkarea">
-                                    <div class="row">
-                                        <a target="_blank" href="https://github.com/vgiselbrecht/gise-video-chat#own-installation">
-                                            <span class="fas fa-plus-circle"></span>
-                                            <span data-lang="buildownvideochat">Build your own Video Chat</span>
-                                        </a>
-                                    </div>
-                                    <div class="row">
-                                        <a target="_blank" href="https://github.com/vgiselbrecht/gise-video-chat/issues">
-                                            <span class="fas fa-bug"></span>
-                                            <span data-lang="reportabug">Report a bug</span>
-                                        </a>
-                                    </div>
-                                </div>
                                 <div id="systeminfo">
                                     <div class="row version">
-                                        Version:  {{version}}
-                                    </div>
-                                    <div class="row imprint" v-show="imprint">
-                                        <a v-bind:href="imprint" target="_blank" data-lang="imprint">Imprint</a>
-                                    </div>
-                                    <div class="row gdpr" v-show="gdpr">
-                                        <a v-bind:href="gdpr" target="_blank" data-lang="privacy">Privacy</a>
+                                        Версия:  {{version}}
                                     </div>
                                 </div>
                             </div>
@@ -190,7 +170,7 @@
             <div class="create-room-inner">
                 <form v-on:submit.prevent="createRoom">
                     <div class="title">{{title}}</div>
-                    <div class="message" data-lang="createaroom">Create a room</div>
+                    <div class="message" data-lang="createaroom">Создать комнату</div>
                     <div class="room-input">
                         <input autofocus type="text" 
                         :placeholder="[[roomNameLabel]]" 
@@ -200,16 +180,7 @@
                         <button type="button" v-on:click="setRandomName" class="fas fa-random"></button>
                     </div>
                     <div class="button-area">
-                        <button type="submit" data-lang="create" class="button">Create</button>
-                    </div>
-                    <div class="bottomlinks">
-                        <span class="imprint" v-show="imprint">
-                            <a v-bind:href="imprint" target="_blank" data-lang="imprint">Imprint</a>
-                        </span>
-                        <span v-show="imprint && gdpr"> | </span>
-                        <span class="gdpr" v-show="gdpr">
-                            <a v-bind:href="gdpr" target="_blank" data-lang="privacy">Privacy</a>
-                        </span>
+                        <button type="submit" data-lang="create" class="button">Создать</button>
                     </div>
                 </form>
             </div>

@@ -1,8 +1,8 @@
 {
     "meta": {
-        "title": "Video Chat",
-        "description": "Open-Source video chat based on WebRTC and Firebase.",
-        "keywords": "chat, video-call, video-chat, webrtc, firebase",
+        "title": "Huriky Meet",
+        "description": "",
+        "keywords": "",
         "image": ""
     },
     "privacy": {
@@ -13,13 +13,13 @@
     "exchangeServices": { 
         "service": "firebase", 
         "firebase": {
-            "apiKey": "",
-            "authDomain": "",
-            "databaseURL": "",
-            "projectId": "",
-            "storageBucket": "",
-            "messagingSenderId": "",
-            "appId": "",
+            "apiKey": "AIzaSyBObelxF_NwJxyRsp_yzv17VAt4U9GZZ-g",
+            "authDomain": "hurikymeet.firebaseapp.com",
+            "databaseURL": "https://hurikymeet-default-rtdb.europe-west1.firebasedatabase.app/",
+            "projectId": "hurikymeet",
+            "storageBucket": "gs://hurikymeet.appspot.com",
+            "messagingSenderId": "1073809410946",
+            "appId": "1:1073809410946:web:ccaa94104ef616b6621d9b",
             "measurementId": ""
         },
         "chat-server": {
@@ -36,7 +36,7 @@
         }
     },
     "features": {
-        "soundEffects": false,
+        "soundEffects": true,
         "mutePartner": true,
         "soundOffPartner": true
     }
