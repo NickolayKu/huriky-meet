@@ -1,0 +1,101 @@
+/**
+In this file you can add your SASS code to customize this video chat.
+
+Example
+--------------------------------------
+$active-color: #ff0000;
+
+body{
+    color: #aaa;
+}
+--------------------------------------
+*/
+
+button.button {
+    background: #C24624 !important;
+    border-radius: 5px !important;
+    color: #F8F9FA !important;
+    padding: 5px 20px 5px !important;
+    font-size: 14px !important;
+    margin-top: 10px !important;
+    box-shadow: 0 0 5px 1px #111 !important;
+}
+#welcome .welcome-inner .starting.show{
+    margin-top: 20px !important;
+}
+#welcome .welcome-inner .setname .setname-content{
+    margin-top: 9px !important;
+}
+#create-room .create-room-inner{
+    background: #2C2E33 !important;
+    color: #F8F9FA !important;
+    box-shadow: 0 0 5px 1px #111 !important;
+}
+#create-room .create-room-inner .title{
+    color: #F8F9FA !important;
+}
+#create-room .create-room-inner .message{
+    border-top: 1px solid #1b1b1b !important;
+}
+#create-room .create-room-inner .room-input{
+    background: #2C2E33 !important;
+    border-top: 1px solid #1b1b1b !important;
+}
+#create-room .create-room-inner .button-area{
+    background: #2C2E33 !important;
+}
+#create-room .create-room-inner .room-input button{
+    background: #C24624 !important;
+    border-radius: 0 5px 5px 0 !important;  
+}
+#create-room .create-room-inner .room-input input{
+    border-radius: 5px 0 0 5px !important;  
+}
+#welcome .welcome-inner{
+    background: #232529 !important;
+    color: #F8F9FA !important;
+    box-shadow: 0 0 5px 1px #111 !important;
+}
+#footer #controls span{
+    box-shadow: 0 0 5px 1px #111 !important;
+    filter: brightness(0.9);
+}
+.microphone.fas.fa-microphone.fa-microphone{
+    color: rgb(236, 54, 54) !important;
+}
+#footer #controls span.fa-phone{
+    background: rgb(236, 54, 54) !important;
+}
+#footer #controls span.fa-phone.green{
+    background: rgb(10, 116, 10) !important;
+}
+.fa-microphone:before{
+    animation: Pulsate 3s linear infinite;
+}
+.fa-microphone-slash:before{
+    animation: unset;
+}
+.microphone.fas.fa-microphone.fa-microphone-slash{
+    color: #555 !important;
+}
+@keyframes Pulsate {
+    from { opacity: 1; }
+    50% { opacity: 0.3; }
+    to { opacity: 1; }
+}
+#welcome .welcome-inner .invite .invite-content input{
+    color: #F8F9FA !important;
+    font-size: 17px !important;
+}
+#welcome .welcome-inner .invite .invite-content{
+    margin-top: 10px !important;
+}
+#welcome .welcome-inner .close{
+    margin: 5px !important;
+}
+#welcome .welcome-inner .invite .invite-content button.fa-copy{
+    color: #C24624 !important;
+}
+#video-area .video-item .video-wrap .video-info-wrap .menu{
+    margin: 5px;
+}
