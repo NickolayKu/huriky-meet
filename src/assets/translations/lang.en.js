@@ -28,7 +28,7 @@ export default{
     "nointernet": "No internet connection...",
     "soundeffects": "Sound effects",
     "yourname": "Ваше имя",
-    "starting": "Start",
+    "starting": "Начать",
     "fullscreenon": "Включить полный экран",
     "fullscreenoff": "Выключить полный экран",
     "mute": "Заткнуть",
